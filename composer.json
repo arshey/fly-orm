@@ -1,0 +1,19 @@
+{
+    "name": "ORM CHEESE PHP / FLY ORM",
+    "description": "small orm php",
+    "authors": [
+        {
+            "name": "Jose Amani",
+            "email": "amani.jose@outlook.fr"
+        }
+    ],
+
+    "autoload" : {
+
+    	"psr-4" : {
+
+    		"Src\\" : "src/"
+    	}
+    },
+    "require": {}
+}
