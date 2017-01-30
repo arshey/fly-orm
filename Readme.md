@@ -10,7 +10,6 @@ Elle permet de transformer une table en un objet facilement manipulable via ses 
 la connexion à la base de données via fly orm est très simple :
 
     
-	    Php 
 	    use Src\orm\Fly;
 
         $fly = Fly::setup([
@@ -26,7 +25,7 @@ la connexion à la base de données via fly orm est très simple :
 
 #### **RECUPERATION DE DONNEES** 
 	
-	    Php
+
 	    /*
             Chargement de la table
 		*/
@@ -46,7 +45,7 @@ la connexion à la base de données via fly orm est très simple :
         
 
 #### **INSERTION DE DONNEES** 
-        Php
+
 	    /*
             Chargement de la table
 		*/
@@ -65,7 +64,7 @@ la connexion à la base de données via fly orm est très simple :
 
 #### **MISE A JOUR DE DONNEES** 
 
-    Php
+
     /*
         Recuperation de l'id à modifier
     */
@@ -75,7 +74,7 @@ la connexion à la base de données via fly orm est très simple :
     $cars->update();
 
 #### **SUPPRESSION DE DONNEES**
-    Php
+
     /*
         Suppression d'un enregistrement via son id
     */
@@ -89,7 +88,7 @@ la connexion à la base de données via fly orm est très simple :
 
 ##### **WHERE**
 
-    Php
+    
     /*
         Chargement de la table
     */
@@ -98,7 +97,7 @@ la connexion à la base de données via fly orm est très simple :
     $car  = $cars->where(['id >' => 10 ])->get();
 
 ##### **ORDER BY**
-    Php
+    
     /*
         Chargement de la table
     */
@@ -108,7 +107,7 @@ la connexion à la base de données via fly orm est très simple :
 
 ##### **LIMIT**
 
-    Php
+    
     /*
         Chargement de la table
     */
@@ -129,7 +128,7 @@ la connexion à la base de données via fly orm est très simple :
 
 ##### **INNER JOIN**
 
-    Php
+    
     /*
         Chargement de la table
     */
@@ -140,7 +139,7 @@ la connexion à la base de données via fly orm est très simple :
 
 ##### **LEFT JOIN**
 
-    Php
+    
     /*
         Chargement de la table
     */
@@ -152,7 +151,6 @@ la connexion à la base de données via fly orm est très simple :
 
 ##### **RIGHT JOIN**
 
-    Php
     /*
         Chargement de la table
     */
